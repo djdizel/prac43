@@ -10,14 +10,7 @@ namespace prac43
     {
         static void Main(string[] args)
         {
-            Notebook notebook = new Notebook();
-            Console.WriteLine("Введите модель ноутбука");
-            notebook.model = Console.ReadLine();
-            Console.WriteLine("Введите марку ноутбука");
-            notebook.brand = Console.ReadLine();
-            Console.WriteLine("Введите цену ноутбука");
-            notebook.price = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(notebook.ToString());
+           
         }
     }
 }
