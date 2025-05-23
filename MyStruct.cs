@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace prac43
 {
+    /// <summary>
+    /// Структура с открытым полем change
+    /// </summary>
     public struct MyStruct
     {
+        /// <summary>
+        /// Поле change
+        /// </summary>
         public string change;
     }
 }
